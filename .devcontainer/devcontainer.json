@@ -1,0 +1,16 @@
+  {
+      "name": "Aula Java 25",
+      "image": "mcr.microsoft.com/devcontainers/java:25",
+      "customizations": {
+          "vscode": {
+              "extensions": [
+                  "vscjava.vscode-java-pack"
+              ],
+              "settings": {
+                  "java.compile.nullAnalysis.mode": "automatic",
+                  "chat.disableAIFeatures": true,
+                  "github.copilot.enable": { "*": false }
+              }
+          }
+      }
+  }
